@@ -151,6 +151,34 @@
 
 		Revision 19394af606f6-android
 
+	- fastboot version
+
+		fastboot version 19394af606f6-android
+
+- [platform-tools_r24.0.3-linux](http://dl.google.com/android/repository/platform-tools_r24.0.3-linux.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.36
+
+		Revision e02fe72a18c3-android
+
+	- fastboot version
+
+		fastboot version e02fe72a18c3-android
+
+- [platform-tools_r24.0.2-linux](http://dl.google.com/android/repository/platform-tools_r24.0.2-linux.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.36
+
+		Revision e02fe72a18c3-android
+
+	- fastboot version
+
+		fastboot version e02fe72a18c3-android
+
 - [platform-tools_r23.1.0-linux](http://dl.google.com/android/repository/platform-tools_r23.1.0-linux.zip)
 
 	- adb version
@@ -183,13 +211,25 @@
 
 		Android Debug Bridge version 1.0.31
 
+- [platform-tools_r19.0.1-linux](http://dl.google.com/android/repository/platform-tools_r19.0.1-linux.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.31
+
+- [platform-tools_r19-linux](http://dl.google.com/android/repository/platform-tools_r19-linux.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.31
+
 - [platform-tools_r18.0.1-linux](http://dl.google.com/android/repository/platform-tools_r18.0.1-linux.zip)
 
 	- adb version
 
 		Android Debug Bridge version 1.0.31
 
-- [platform-tools_r18.0.0-linux](http://dl.google.com/android/repository/platform-tools_r18.0.0-linux.zip)
+- [platform-tools_r18-linux](http://dl.google.com/android/repository/platform-tools_r18-linux.zip)
 
 	- adb version
 
