@@ -189,7 +189,7 @@
 
 		Android Debug Bridge version 1.0.31
 
-- [platform-tools_r18.0.0-darwin](http://dl.google.com/android/repository/platform-tools_r18.0.0-darwin.zip)
+- [platform-tools_r18-darwin](http://dl.google.com/android/repository/platform-tools_r18-darwin.zip)
 
 	- adb version
 
