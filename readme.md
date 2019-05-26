@@ -2,7 +2,14 @@
 
 ## [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
-
+- 28.0.3
+	- [platform-tools_r28.0.3-windows](https://dl.google.com/android/repository/platform-tools_r28.0.3-windows.zip)
+	- [platform-tools_r28.0.3-linux](https://dl.google.com/android/repository/platform-tools_r28.0.3-linux.zip)
+	- [platform-tools_r28.0.3-darwin](https://dl.google.com/android/repository/platform-tools_r28.0.3-darwin.zip)
+- 28.0.2
+	- [platform-tools_r28.0.2-windows](https://dl.google.com/android/repository/platform-tools_r28.0.2-windows.zip)
+	- [platform-tools_r28.0.2-linux](https://dl.google.com/android/repository/platform-tools_r28.0.2-linux.zip)
+	- [platform-tools_r28.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r28.0.2-darwin.zip)
 - 28.0.1 (September 2018)
 	- [platform-tools_r28.0.1-windows](https://dl.google.com/android/repository/platform-tools_r28.0.1-windows.zip)
 	- [platform-tools_r28.0.1-linux](https://dl.google.com/android/repository/platform-tools_r28.0.1-linux.zip)
