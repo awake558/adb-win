@@ -2,6 +2,79 @@
 
 ## [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
+
+- [platform-tools_r29.0.5-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.5-darwin.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 29.0.5-5949299
+
+	- fastboot version
+
+		fastboot version 29.0.5-5949299
+
+- [platform-tools_r29.0.4-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.4-darwin.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 29.0.4-5871666
+
+	- fastboot version
+
+		fastboot version 29.0.4-5871666
+
+- [platform-tools_r29.0.3-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.3-darwin.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 29.0.3-5806383
+
+	- fastboot version
+
+		fastboot version 29.0.3-5806383
+
+- [platform-tools_r29.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.2-darwin.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 29.0.2-5738569
+
+	- fastboot version
+
+		fastboot version 29.0.2-5738569
+
+- [platform-tools_r29.0.1-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.1-darwin.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 29.0.1-5644136
+
+	- fastboot version
+
+		fastboot version 29.0.1-5644136
+
+- [platform-tools_r29.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.0-darwin.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 29.0.0-5611747
+
+	- fastboot version
+
+		fastboot version 29.0.0-5611747
+
 - [platform-tools_r28.0.3-darwin](https://dl.google.com/android/repository/platform-tools_r28.0.3-darwin.zip)
 
 	- adb version

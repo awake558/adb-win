@@ -2,6 +2,36 @@
 
 ## [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
+- 29.0.5
+	- [platform-tools_r29.0.5-windows](https://dl.google.com/android/repository/platform-tools_r29.0.5-windows.zip)
+	- [platform-tools_r29.0.5-linux](https://dl.google.com/android/repository/platform-tools_r29.0.5-linux.zip)
+	- [platform-tools_r29.0.5-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.5-darwin.zip)
+
+- 29.0.4
+	- [platform-tools_r29.0.4-windows](https://dl.google.com/android/repository/platform-tools_r29.0.4-windows.zip)
+	- [platform-tools_r29.0.4-linux](https://dl.google.com/android/repository/platform-tools_r29.0.4-linux.zip)
+	- [platform-tools_r29.0.4-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.4-darwin.zip)
+
+- 29.0.3
+	- [platform-tools_r29.0.3-windows](https://dl.google.com/android/repository/platform-tools_r29.0.3-windows.zip)
+	- [platform-tools_r29.0.3-linux](https://dl.google.com/android/repository/platform-tools_r29.0.3-linux.zip)
+	- [platform-tools_r29.0.3-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.3-darwin.zip)
+
+- 29.0.2
+	- [platform-tools_r29.0.2-windows](https://dl.google.com/android/repository/platform-tools_r29.0.2-windows.zip)
+	- [platform-tools_r29.0.2-linux](https://dl.google.com/android/repository/platform-tools_r29.0.2-linux.zip)
+	- [platform-tools_r29.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.2-darwin.zip)
+
+- 29.0.1
+	- [platform-tools_r29.0.1-windows](https://dl.google.com/android/repository/platform-tools_r29.0.1-windows.zip)
+	- [platform-tools_r29.0.1-linux](https://dl.google.com/android/repository/platform-tools_r29.0.1-linux.zip)
+	- [platform-tools_r29.0.1-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.1-darwin.zip)
+
+- 29.0.0
+	- [platform-tools_r29.0.0-windows](https://dl.google.com/android/repository/platform-tools_r29.0.0-windows.zip)
+	- [platform-tools_r29.0.0-linux](https://dl.google.com/android/repository/platform-tools_r29.0.0-linux.zip)
+	- [platform-tools_r29.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.0-darwin.zip)
+
 - 28.0.3
 	- [platform-tools_r28.0.3-windows](https://dl.google.com/android/repository/platform-tools_r28.0.3-windows.zip)
 	- [platform-tools_r28.0.3-linux](https://dl.google.com/android/repository/platform-tools_r28.0.3-linux.zip)
