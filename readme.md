@@ -2,6 +2,21 @@
 
 ## [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
+[CN](https://developer.android.google.cn/studio/releases/platform-tools?hl=en)
+
+
+https://dl.google.com/android/repository/platform-tools_r30.0.0-windows.zip
+
+- 30.0.0
+	- [platform-tools_r30.0.0-windows](https://dl.google.com/android/repository/platform-tools_r30.0.0-windows.zip)
+	- [platform-tools_r30.0.0-linux](https://dl.google.com/android/repository/platform-tools_r30.0.0-linux.zip)
+	- [platform-tools_r30.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r30.0.0-darwin.zip)
+
+- 29.0.6
+	- [platform-tools_r29.0.6-windows](https://dl.google.com/android/repository/platform-tools_r29.0.6-windows.zip)
+	- [platform-tools_r29.0.6-linux](https://dl.google.com/android/repository/platform-tools_r29.0.6-linux.zip)
+	- [platform-tools_r29.0.6-darwin](https://dl.google.com/android/repository/platform-tools_r29.0.6-darwin.zip)
+
 - 29.0.5
 	- [platform-tools_r29.0.5-windows](https://dl.google.com/android/repository/platform-tools_r29.0.5-windows.zip)
 	- [platform-tools_r29.0.5-linux](https://dl.google.com/android/repository/platform-tools_r29.0.5-linux.zip)
