@@ -4,6 +4,25 @@
 
 [CN](https://developer.android.google.cn/studio/releases/platform-tools?hl=en)
 
+- 30.0.4
+	- [platform-tools_r30.0.4-windows](https://dl.google.com/android/repository/platform-tools_r30.0.4-windows.zip)
+	- [platform-tools_r30.0.4-linux](https://dl.google.com/android/repository/platform-tools_r30.0.4-linux.zip)
+	- [platform-tools_r30.0.4-darwin](https://dl.google.com/android/repository/platform-tools_r30.0.4-darwin.zip)
+
+- 30.0.3
+	- [platform-tools_r30.0.3-windows](https://dl.google.com/android/repository/platform-tools_r30.0.3-windows.zip)
+	- [platform-tools_r30.0.3-linux](https://dl.google.com/android/repository/platform-tools_r30.0.3-linux.zip)
+	- [platform-tools_r30.0.3-darwin](https://dl.google.com/android/repository/platform-tools_r30.0.3-darwin.zip)
+
+- 30.0.2
+	- [platform-tools_r30.0.2-windows](https://dl.google.com/android/repository/platform-tools_r30.0.2-windows.zip)
+	- [platform-tools_r30.0.2-linux](https://dl.google.com/android/repository/platform-tools_r30.0.2-linux.zip)
+	- [platform-tools_r30.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r30.0.2-darwin.zip)
+
+- 30.0.1
+	- [platform-tools_r30.0.1-windows](https://dl.google.com/android/repository/platform-tools_r30.0.1-windows.zip)
+	- [platform-tools_r30.0.1-linux](https://dl.google.com/android/repository/platform-tools_r30.0.1-linux.zip)
+	- [platform-tools_r30.0.1-darwin](https://dl.google.com/android/repository/platform-tools_r30.0.1-darwin.zip)
 
 - 30.0.0
 	- [platform-tools_r30.0.0-windows](https://dl.google.com/android/repository/platform-tools_r30.0.0-windows.zip)
