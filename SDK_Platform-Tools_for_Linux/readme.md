@@ -2,6 +2,18 @@
 
 ## [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
+- [platform-tools_r31.0.2-linux](https://dl.google.com/android/repository/platform-tools_r31.0.3-linux.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 31.0.3-7562133
+
+	- fastboot version
+
+		fastboot version 31.0.3-7562133
+
 - [platform-tools_r31.0.2-linux](https://dl.google.com/android/repository/platform-tools_r31.0.2-linux.zip)
 
 	- adb version

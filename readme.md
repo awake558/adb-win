@@ -4,6 +4,14 @@
 
 [CN](https://developer.android.google.cn/studio/releases/platform-tools?hl=en)
 
+- 31.0.3 (August 2021)
+	- fastboot
+		- Support flashing vbmeta_vendor.img for fastboot flashall / update.
+
+	- [platform-tools_r31.0.3-windows](https://dl.google.com/android/repository/platform-tools_r31.0.3-windows.zip)
+	- [platform-tools_r31.0.3-linux](https://dl.google.com/android/repository/platform-tools_r31.0.3-linux.zip)
+	- [platform-tools_r31.0.3-darwin](https://dl.google.com/android/repository/platform-tools_r31.0.3-darwin.zip)
+
 - 31.0.2 (April 2021)
 	- adb
 		- Support forwarding to vsock on linux.
