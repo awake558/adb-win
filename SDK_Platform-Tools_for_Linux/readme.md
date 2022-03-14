@@ -2,6 +2,42 @@
 
 ## [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
+- [platform-tools_r33.0.0-linux](https://dl.google.com/android/repository/platform-tools_r33.0.0-linux.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 33.0.0-8141338
+
+	- fastboot version
+
+		fastboot version 33.0.0-8141338
+
+- [platform-tools_r32.0.0-linux](https://dl.google.com/android/repository/platform-tools_r32.0.0-linux.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 32.0.0-8006631
+
+	- fastboot version
+
+		fastboot version 32.0.0-8006631
+
+- [platform-tools_r31.0.3-linux](https://dl.google.com/android/repository/platform-tools_r31.0.3-linux.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 31.0.3-7562133
+
+	- fastboot version
+
+		fastboot version 31.0.3-7562133
+
 - [platform-tools_r31.0.2-linux](https://dl.google.com/android/repository/platform-tools_r31.0.3-linux.zip)
 
 	- adb version

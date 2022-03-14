@@ -4,6 +4,23 @@
 
 [CN](https://developer.android.google.cn/studio/releases/platform-tools?hl=en)
 
+- 33.0.0 (February 2022)
+	- adb
+		- Fixes the issue introduced in 32.0.0 of crashes when run without any arguments.
+
+	- [platform-tools_r33.0.0-windows](https://dl.google.com/android/repository/platform-tools_r33.0.0-windows.zip)
+	- [platform-tools_r33.0.0-linux](https://dl.google.com/android/repository/platform-tools_r33.0.0-linux.zip)
+	- [platform-tools_r33.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r33.0.0-darwin.zip)
+
+- 32.0.0 (January 2022)
+	- adb
+		- Universal binary for Apple M1 devices.
+		- Known issue: this version crashes when run without any arguments.
+
+	- [platform-tools_r32.0.0-windows](https://dl.google.com/android/repository/platform-tools_r32.0.0-windows.zip)
+	- [platform-tools_r32.0.0-linux](https://dl.google.com/android/repository/platform-tools_r32.0.0-linux.zip)
+	- [platform-tools_r32.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r32.0.0-darwin.zip)
+
 - 31.0.3 (August 2021)
 	- fastboot
 		- Support flashing vbmeta_vendor.img for fastboot flashall / update.
