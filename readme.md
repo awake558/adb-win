@@ -4,6 +4,43 @@
 
 [CN](https://developer.android.google.cn/studio/releases/platform-tools?hl=en)
 
+- 33.0.3 (Aug 2022)
+	- adb
+		- Don't retry adb root if first attempt failed.
+		- Fix track-devices duplicate entry.
+		- Add receive windowing (increase throughput on high-latency connections).
+		- More specific error messages in the "more than one device" failure cases.
+		- Reject unexpected reverse forward requests.
+		- Fix install-multi-package on Windows.
+	- fastboot
+		- Remove e2fsdroid as part of SDK platform-tools.
+		- Print OemCmdHandler return message on success.
+
+	- [platform-tools_r33.0.3-windows](https://dl.google.com/android/repository/platform-tools_r33.0.3-windows.zip)
+	- [platform-tools_r33.0.3-linux](https://dl.google.com/android/repository/platform-tools_r33.0.3-linux.zip)
+	- [platform-tools_r33.0.3-darwin](https://dl.google.com/android/repository/platform-tools_r33.0.3-darwin.zip)
+
+- 33.0.2 (May 2022)
+	- fastboot
+		- Support for the vendor_kernel_boot partition.
+
+	- [platform-tools_r33.0.2-windows](https://dl.google.com/android/repository/platform-tools_r33.0.2-windows.zip)
+	- [platform-tools_r33.0.2-linux](https://dl.google.com/android/repository/platform-tools_r33.0.2-linux.zip)
+	- [platform-tools_r33.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r33.0.2-darwin.zip)
+
+- 33.0.1 (March 2022)
+	- adb
+		- Fixes Windows mdns crashes.
+		- Fixes enable-verity/disable-verity on old devices.
+		- Fixes "install multiple" on old devices
+		- Improves the help output to include all supported compression methods.
+	- systrace
+		- Removed. Use Studio Profiler/gpuinspector.dev/Perfetto instead.
+
+	- [platform-tools_r33.0.1-windows](https://dl.google.com/android/repository/platform-tools_r33.0.1-windows.zip)
+	- [platform-tools_r33.0.1-linux](https://dl.google.com/android/repository/platform-tools_r33.0.1-linux.zip)
+	- [platform-tools_r33.0.1-darwin](https://dl.google.com/android/repository/platform-tools_r33.0.1-darwin.zip)
+
 - 33.0.0 (February 2022)
 	- adb
 		- Fixes the issue introduced in 32.0.0 of crashes when run without any arguments.
