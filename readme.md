@@ -4,6 +4,66 @@
 
 [CN](https://developer.android.google.cn/studio/releases/platform-tools?hl=en)
 
+- 34.0.5 ( )
+	- adb
+
+	- fastboot
+
+	- [platform-tools_r34.0.5-windows](https://dl.google.com/android/repository/platform-tools_r34.0.5-windows.zip)
+	- [platform-tools_r34.0.5-linux](https://dl.google.com/android/repository/platform-tools_r34.0.5-linux.zip)
+	- [platform-tools_r34.0.5-darwin](https://dl.google.com/android/repository/platform-tools_r34.0.5-darwin.zip)
+
+- 34.0.4 ( )
+	- adb
+
+	- fastboot
+
+	- [platform-tools_r34.0.4-windows](https://dl.google.com/android/repository/platform-tools_r34.0.4-windows.zip)
+	- [platform-tools_r34.0.4-linux](https://dl.google.com/android/repository/platform-tools_r34.0.4-linux.zip)
+	- [platform-tools_r34.0.4-darwin](https://dl.google.com/android/repository/platform-tools_r34.0.4-darwin.zip)
+
+- 34.0.3 ( )
+	- adb
+
+	- fastboot
+
+	- [platform-tools_r34.0.3-windows](https://dl.google.com/android/repository/platform-tools_r34.0.3-windows.zip)
+	- [platform-tools_r34.0.3-linux](https://dl.google.com/android/repository/platform-tools_r34.0.3-linux.zip)
+	- [platform-tools_r34.0.3-darwin](https://dl.google.com/android/repository/platform-tools_r34.0.3-darwin.zip)
+
+- 34.0.2 ( )
+	- adb
+
+	- fastboot
+
+	- [platform-tools_r34.0.2-windows](https://dl.google.com/android/repository/platform-tools_r34.0.2-windows.zip)
+	- [platform-tools_r34.0.2-linux](https://dl.google.com/android/repository/platform-tools_r34.0.2-linux.zip)
+	- [platform-tools_r34.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r34.0.2-darwin.zip)
+
+- 34.0.1 (2023 年 3 月)
+	- adb
+		- macOS：由于 adb install 挂起问题，恢复了“连接不稳定问题（MacBook 高速数据线）”的解决方案（问题 270205252）。
+	- fastboot
+		- Windows：修复了平台工具 34.0.0 中引入的“尝试确定文件系统大小时出现非法或格式有误的设备名称”错误（问题 271039230）。
+
+	- [platform-tools_r34.0.1-windows](https://dl.google.com/android/repository/platform-tools_r34.0.1-windows.zip)
+	- [platform-tools_r34.0.1-linux](https://dl.google.com/android/repository/platform-tools_r34.0.1-linux.zip)
+	- [platform-tools_r34.0.1-darwin](https://dl.google.com/android/repository/platform-tools_r34.0.1-darwin.zip)
+
+- 34.0.0 (2023 年 2 月)
+	- adb
+		- 修复了针对 macOS 的零长度数据包发送问题（问题跟踪器：208675141）。
+		- 解决了连接不稳定的问题（MacBook 高速数据线）：adb 频繁断开连接。
+		- 改进了参数数量不足导致的 adb push 错误消息。
+	- fastboot
+		- 改进了刷写功能：flashall 现在会尽可能跳过重新启动到用户空间。
+		- 修复了针对 macOS 的零长度数据包发送问题（问题跟踪器：208675141）。
+		- 修复了刷写 recovery.img 导致 AVB 页脚错误的问题。
+
+	- [platform-tools_r34.0.0-windows](https://dl.google.com/android/repository/platform-tools_r34.0.0-windows.zip)
+	- [platform-tools_r34.0.0-linux](https://dl.google.com/android/repository/platform-tools_r34.0.0-linux.zip)
+	- [platform-tools_r34.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r34.0.0-darwin.zip)
+
 - 33.0.3 (Aug 2022)
 	- adb
 		- Don't retry adb root if first attempt failed.

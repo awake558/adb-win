@@ -2,6 +2,78 @@
 
 ## [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
+- [platform-tools_r34.0.5-windows](https://dl.google.com/android/repository/platform-tools_r34.0.5-windows.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 34.0.5-10900879
+
+	- fastboot version
+
+		fastboot version 34.0.5-10900879
+
+- [platform-tools_r34.0.4-windows](https://dl.google.com/android/repository/platform-tools_r34.0.4-windows.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 34.0.4-10411341
+
+	- fastboot version
+
+		fastboot version 34.0.4-10411341
+
+- [platform-tools_r34.0.3-windows](https://dl.google.com/android/repository/platform-tools_r34.0.3-windows.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 34.0.3-10161052
+
+	- fastboot version
+
+		fastboot version 34.0.3-10161052
+
+- [platform-tools_r34.0.2-windows](https://dl.google.com/android/repository/platform-tools_r34.0.2-windows.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 34.0.2-xxxxxxx
+
+	- fastboot version
+
+		fastboot version 34.0.2-xxxxxxx
+
+- [platform-tools_r34.0.1-windows](https://dl.google.com/android/repository/platform-tools_r34.0.1-windows.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 34.0.1-9979309
+
+	- fastboot version
+
+		fastboot version 34.0.1-9979309
+
+- [platform-tools_r34.0.0-windows](https://dl.google.com/android/repository/platform-tools_r34.0.0-windows.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 34.0.0-9570255
+
+	- fastboot version
+
+		fastboot version 34.0.0-9570255
+
 - [platform-tools_r33.0.3-windows](https://dl.google.com/android/repository/platform-tools_r33.0.3-windows.zip)
 
 	- adb version
