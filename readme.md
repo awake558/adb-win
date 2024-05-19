@@ -4,19 +4,61 @@
 
 [CN](https://developer.android.google.cn/studio/releases/platform-tools?hl=en)
 
-- 34.0.5 ( )
+- 35.0.1 (March 2024)
+
 	- adb
 
+		- Switch to libusb 1.0.27
+
+	- [platform-tools_r35.0.1-windows](https://dl.google.com/android/repository/platform-tools_r35.0.1-windows.zip)
+	- [platform-tools_r35.0.1-linux](https://dl.google.com/android/repository/platform-tools_r35.0.1-linux.zip)
+	- [platform-tools_r35.0.1-darwin](https://dl.google.com/android/repository/platform-tools_r35.0.1-darwin.zip)
+
+- 35.0.0 (February 2024)
+
+	- adb
+
+		- Switch to libusb as the default on Linux issue #270205252.
+		- Fix adb startup on hosts without USB.
+		- Fix adb hangs caused by USB devices incorrectly reporting zero-length descriptors issue #302212871.
+		- Fix return code of adb shell when device disconnects issue #321787891.
+
 	- fastboot
+
+		- Limit the maximum size of the incoming packet queue.
+		- Remove bottlenecks that previously limited download speeds to around 120MB/s. Now fastboot can saturate a SuperSpeed+ bus and achieve speeds up to 980MB/s, depending on the device.
+
+	- [platform-tools_r35.0.0-windows](https://dl.google.com/android/repository/platform-tools_r35.0.0-windows.zip)
+	- [platform-tools_r35.0.0-linux](https://dl.google.com/android/repository/platform-tools_r35.0.0-linux.zip)
+	- [platform-tools_r35.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r35.0.0-darwin.zip)
+
+- 34.0.5 (October 2023)
+
+	- adb
+
+		- adb now defaults to libusb on macOS to address issue #270205252.
+		- Previously, adb responded with a successful code when wireless pairing fails. Resolved this by returning a failure code (1) and user-facing error (error: protocol fault (couldn't read status message...)). echo $? now reports 1.
+		- adb wait-for-disconnect is now operational for non-USB (wireless debugging).
+		- Added new DbC interface for future support of ChromeOS over adb.
+
+	- fastboot
+
+		- Fixed flashall on Pixel 3 devices.
 
 	- [platform-tools_r34.0.5-windows](https://dl.google.com/android/repository/platform-tools_r34.0.5-windows.zip)
 	- [platform-tools_r34.0.5-linux](https://dl.google.com/android/repository/platform-tools_r34.0.5-linux.zip)
 	- [platform-tools_r34.0.5-darwin](https://dl.google.com/android/repository/platform-tools_r34.0.5-darwin.zip)
 
-- 34.0.4 ( )
-	- adb
+- 34.0.4 (July 2023)
 
+	- adb
+		- Propagate -a (gListenAll) when adb forks an adb host server (previously, the flag only worked for adb -a server nodaemon)
+		- Faster root and unroot
+		- Reland Flag(env) guarding clear endpoint (device) feature for OSX usb start. (issue #270205252).
 	- fastboot
+		- Mac: remove retries on invalid IO iterator (flashing failure with LIBUSB_TRANSFER_CANCELLED)
+		- Windows: fix "Sparse file is too large or invalid" when using "flashall"
+		- All platforms: fix "ANDROID_PRODUCT_OUT not set" when using "update"
 
 	- [platform-tools_r34.0.4-windows](https://dl.google.com/android/repository/platform-tools_r34.0.4-windows.zip)
 	- [platform-tools_r34.0.4-linux](https://dl.google.com/android/repository/platform-tools_r34.0.4-linux.zip)
