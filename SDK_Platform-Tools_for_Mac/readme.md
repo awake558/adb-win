@@ -2,6 +2,42 @@
 
 ## [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
+- [platform-tools_r36.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r36.0.0-darwin.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 36.0.0-13206524
+
+	- fastboot version
+
+		fastboot version 36.0.0-13206524
+
+- [platform-tools_r35.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r35.0.2-darwin.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 35.0.2-12147458
+
+	- fastboot version
+
+		fastboot version 35.0.2-12147458
+
+- [platform-tools_r35.0.1-darwin](https://dl.google.com/android/repository/platform-tools_r35.0.1-darwin.zip)
+
+	- adb version
+
+		Android Debug Bridge version 1.0.41
+
+		Version 35.0.1-11580240
+
+	- fastboot version
+
+		fastboot version 35.0.1-11580240
+
 - [platform-tools_r35.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r35.0.0-darwin.zip)
 
 	- adb version

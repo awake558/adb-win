@@ -4,6 +4,40 @@
 
 [CN](https://developer.android.google.cn/studio/releases/platform-tools?hl=en)
 
+- latest
+
+	- [platform-tools-latest-windows](https://googledownloads.cn/android/repository/platform-tools-latest-windows.zip)
+	- [platform-tools-latest-linux](https://googledownloads.cn/android/repository/platform-tools-latest-linux.zip)
+	- [platform-tools-latest-darwin](https://googledownloads.cn/android/repository/platform-tools-latest-darwin.zip)
+
+- 36.0.0 (Apr 2025)
+
+	- adb
+
+		- Re-written libusb USB backend (uses sync API instead of async API). Improves reliability and fixes memory exhaustion on Linux.
+		- Libusb USB backend hot-plug now supports for Windows (enables USB speed detection).
+		- Improved server-status now displays if mdns is enabled.
+		- Fixed macOS bug where Zero Length Packets were not sent, resulting in stalled connection (b/208675141).
+		- Fixed use-after-free in libusb backend.
+
+	- [platform-tools_r36.0.0-windows](https://dl.google.com/android/repository/platform-tools_r36.0.0-windows.zip)
+	- [platform-tools_r36.0.0-linux](https://dl.google.com/android/repository/platform-tools_r36.0.0-linux.zip)
+	- [platform-tools_r36.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r36.0.0-darwin.zip)
+
+- 35.0.2 (July 2024)
+
+	- adb
+
+		- Fix openscreen mDNS backend bug bringing down server on truncated query issue #294120933.
+		- Make openscreen mDNS backend work on macOS.
+		- Make openscreen mDNS backend default on all platforms.
+		- Support to detect USB SuperSpeed+ (current and negotiated speeds) for diagnostic purposes.
+		- Graceful shutdown: Release all USB interfaces on shutdown (all OSes).
+
+	- [platform-tools_r35.0.2-windows](https://dl.google.com/android/repository/platform-tools_r35.0.2-windows.zip)
+	- [platform-tools_r35.0.2-linux](https://dl.google.com/android/repository/platform-tools_r35.0.2-linux.zip)
+	- [platform-tools_r35.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r35.0.2-darwin.zip)
+
 - 35.0.1 (March 2024)
 
 	- adb
