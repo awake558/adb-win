@@ -10,6 +10,42 @@
 	- [platform-tools-latest-linux](https://googledownloads.cn/android/repository/platform-tools-latest-linux.zip)
 	- [platform-tools-latest-darwin](https://googledownloads.cn/android/repository/platform-tools-latest-darwin.zip)
 
+
+
+- 37.0.0 (Feb 2026)
+
+	- adb
+		- The default mDNS backend is now libadbmdns. Library openscreen is still included as a failover but is deprecated.
+		- Libadbmdns now also return .local hostname as part of services metadata.
+		- Linux USB backend now uses netlink instead of an active loop to detect devices addition/deletion.
+
+	- [platform-tools_r37.0.0-win](https://dl.google.com/android/repository/platform-tools_r37.0.0-win.zip)
+	- [platform-tools_r37.0.0-linux]  (https://dl.google.com/android/repository/platform-tools_r37.0.0-linux.zip)
+	- [platform-tools_r37.0.0-darwin] (https://dl.google.com/android/repository/platform-tools_r37.0.0-darwin.zip)
+
+
+
+- 36.0.2 (Sep 2025)
+
+	- adb
+
+		- Make legacy USB backend the default on Linux (instead of libusb) due to instability reports (device disconnection, interface read failure, and delayed netlink events preventing device detection).
+		- Fix bug where Samsung devices were not properly detected issue #404741058.
+		- Fix bug where old Android devices using USB class Miscellaneous (0xEF) were not properly detected issue #365009755.
+		- Fix bug where last character of a file was truncated when pulled or pushed [Windows only] issue #439152273.
+
+	- [platform-tools_r36.0.2-win](https://dl.google.com/android/repository/platform-tools_r36.0.2-win.zip)
+	- [platform-tools_r36.0.2-linux](https://dl.google.com/android/repository/platform-tools_r36.0.2-linux.zip)
+	- [platform-tools_r36.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r36.0.2-darwin.zip)
+
+- 36.0.1
+
+	Never released past Canary due to [issue #439152273](https://issuetracker.google.com/439152273).
+
+	- [platform-tools_r36.0.1-win](https://dl.google.com/android/repository/platform-tools_r36.0.1-win.zip)
+	- [platform-tools_r36.0.1-linux](https://dl.google.com/android/repository/platform-tools_r36.0.1-linux.zip)
+	- [platform-tools_r36.0.1-darwin](https://dl.google.com/android/repository/platform-tools_r36.0.1-darwin.zip)
+
 - 36.0.0 (Apr 2025)
 
 	- adb
@@ -20,7 +56,7 @@
 		- Fixed macOS bug where Zero Length Packets were not sent, resulting in stalled connection (b/208675141).
 		- Fixed use-after-free in libusb backend.
 
-	- [platform-tools_r36.0.0-windows](https://dl.google.com/android/repository/platform-tools_r36.0.0-windows.zip)
+	- [platform-tools_r36.0.0-win](https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip)
 	- [platform-tools_r36.0.0-linux](https://dl.google.com/android/repository/platform-tools_r36.0.0-linux.zip)
 	- [platform-tools_r36.0.0-darwin](https://dl.google.com/android/repository/platform-tools_r36.0.0-darwin.zip)
 
@@ -34,7 +70,7 @@
 		- Support to detect USB SuperSpeed+ (current and negotiated speeds) for diagnostic purposes.
 		- Graceful shutdown: Release all USB interfaces on shutdown (all OSes).
 
-	- [platform-tools_r35.0.2-windows](https://dl.google.com/android/repository/platform-tools_r35.0.2-windows.zip)
+	- [platform-tools_r35.0.2-win](https://dl.google.com/android/repository/platform-tools_r35.0.2-win.zip)
 	- [platform-tools_r35.0.2-linux](https://dl.google.com/android/repository/platform-tools_r35.0.2-linux.zip)
 	- [platform-tools_r35.0.2-darwin](https://dl.google.com/android/repository/platform-tools_r35.0.2-darwin.zip)
 
@@ -44,7 +80,7 @@
 
 		- Switch to libusb 1.0.27
 
-	- [platform-tools_r35.0.1-windows](https://dl.google.com/android/repository/platform-tools_r35.0.1-windows.zip)
+	- [platform-tools_r35.0.1-win](https://dl.google.com/android/repository/platform-tools_r35.0.1-win.zip)
 	- [platform-tools_r35.0.1-linux](https://dl.google.com/android/repository/platform-tools_r35.0.1-linux.zip)
 	- [platform-tools_r35.0.1-darwin](https://dl.google.com/android/repository/platform-tools_r35.0.1-darwin.zip)
 
